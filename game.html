@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DCL Archives — Partie</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="crest">♛</span>
+    <div>
+      DCL Archives
+      <div class="sub">Championnat du Damier Club du Léman</div>
+    </div>
+  </div>
+  <a class="back-link" href="index.html">← Toutes les parties</a>
+</header>
+
+<main class="container">
+  <div class="game-header">
+    <div>
+      <h1 id="title">Chargement…</h1>
+      <div class="subline" id="subline"></div>
+    </div>
+    <a class="back-link" id="pdn-download" download>⬇ Télécharger le PDN</a>
+  </div>
+
+  <div class="scan-fullscreen-overlay" id="scan-fullscreen-overlay">
+    <div class="scan-fullscreen-bar">
+      <span>Feuille de notation — plein écran</span>
+      <button id="fullscreen-close" title="Fermer (Échap)">✕ Fermer</button>
+    </div>
+    <iframe class="scan-fullscreen-frame" id="scan-fullscreen-frame" title="Feuille de notation en plein écran"></iframe>
+  </div>
+
+  <div class="detail-layout">
+    <section class="scan-panel">
+      <div class="scan-tabs" id="scan-tabs"></div>
+      <div class="scan-zoom-bar">
+        <button id="zoom-out" title="Réduire">−</button>
+        <span class="zoom-level" id="zoom-level">100%</span>
+        <button id="zoom-in" title="Agrandir">+</button>
+        <button id="zoom-fit" title="Ajuster à la largeur">Ajuster à la largeur</button>
+        <button id="zoom-fullscreen" title="Plein écran">⛶ Plein écran</button>
+      </div>
+      <iframe class="scan-frame" id="scan-frame" title="Feuille de notation scannée"></iframe>
+    </section>
+
+    <section class="board-panel">
+      <div class="board-wrap"><canvas id="board"></canvas></div>
+      <div class="move-indicator">
+        <span>Coup <span class="current-move" id="move-current">0</span> / <span id="move-total">0</span></span>
+        <span id="move-notation"></span>
+      </div>
+      <div class="controls">
+        <button id="btn-first" title="Début">⏮</button>
+        <button id="btn-prev" title="Coup précédent">◀</button>
+        <button id="btn-play" class="play" title="Lecture automatique">▶</button>
+        <input type="range" id="slider" min="0" max="0" value="0">
+        <button id="btn-next" title="Coup suivant">▶|</button>
+        <button id="btn-last" title="Fin">⏭</button>
+        <button id="btn-flip" title="Retourner le plateau">⇅</button>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script type="module" src="js/game.js"></script>
+</body>
+</html>

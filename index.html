@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DCL Archives — Parties du club</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="crest">♛</span>
+    <div>
+      DCL Archives
+      <div class="sub">Championnat du Damier Club du Léman</div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="filters" id="filters">
+    <div class="field">
+      <label for="f-cadence">Cadence</label>
+      <select id="f-cadence"></select>
+    </div>
+    <div class="field">
+      <label for="f-round">Ronde</label>
+      <select id="f-round"></select>
+    </div>
+    <div class="field">
+      <label for="f-leg">Aller / Retour</label>
+      <select id="f-leg"></select>
+    </div>
+    <div class="field">
+      <label for="f-date">Date</label>
+      <select id="f-date"></select>
+    </div>
+    <div class="field">
+      <label for="f-result">Résultat</label>
+      <select id="f-result">
+        <option value="">Tous</option>
+        <option value="w">Victoire Blancs</option>
+        <option value="b">Victoire Noirs</option>
+        <option value="draw">Match nul</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="f-player1">Joueur</label>
+      <select id="f-player1"></select>
+    </div>
+    <div class="field">
+      <label for="f-color-value">Couleur jouée (si joueur choisi)</label>
+      <select id="f-color-value">
+        <option value="">Les deux</option>
+        <option value="w">Blancs</option>
+        <option value="b">Noirs</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="f-player2">Duel contre</label>
+      <select id="f-player2"></select>
+    </div>
+    <div class="actions">
+      <span class="results-count" id="results-count"></span>
+      <button class="btn-reset" id="reset-filters">Réinitialiser les filtres</button>
+    </div>
+  </section>
+
+  <section class="results" id="results"></section>
+</main>
+
+<script type="module" src="js/dashboard.js"></script>
+</body>
+</html>

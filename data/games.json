@@ -1,0 +1,56 @@
+[
+  {
+    "id": "2026-09-26-r2-francine-mickael",
+    "event": "Championnat du Club (DCL)",
+    "date": "2026-09-26",
+    "round": 2,
+    "leg": "retour",
+    "cadence": "20+20",
+    "white": "Francine T.",
+    "black": "Mickaël C.",
+    "whiteId": "francine-t",
+    "blackId": "mickael-c",
+    "result": "0-2",
+    "pdn": "pdn/game1_francine-mickael.pdn",
+    "scans": [
+      { "label": "Copie Mickaël", "path": "scans/game1_francine-mickael_mickael-copy.pdf" },
+      { "label": "Copie Francine", "path": "scans/game1_francine-mickael_francine-copy.pdf" }
+    ]
+  },
+  {
+    "id": "2026-09-26-r2-vincent-mickael",
+    "event": "Championnat du Club (DCL)",
+    "date": "2026-09-26",
+    "round": 2,
+    "leg": "retour",
+    "cadence": "20+20",
+    "white": "Vincent K.",
+    "black": "Mickaël C.",
+    "whiteId": "vincent-k",
+    "blackId": "mickael-c",
+    "result": "1-1",
+    "pdn": "pdn/game2_vincent-mickael.pdn",
+    "scans": [
+      { "label": "Copie Mickaël", "path": "scans/game2_vincent-mickael_mickael-copy.pdf" },
+      { "label": "Copie Vincent", "path": "scans/game2_vincent-mickael_vincent-copy.pdf" }
+    ]
+  },
+  {
+    "id": "2026-09-26-r2-mickael-patrick",
+    "event": "Championnat du Club (DCL)",
+    "date": "2026-09-26",
+    "round": 2,
+    "leg": "retour",
+    "cadence": "20+20",
+    "white": "Mickaël C.",
+    "black": "Patrick K.",
+    "whiteId": "mickael-c",
+    "blackId": "patrick-k",
+    "result": "2-0",
+    "pdn": "pdn/game3_mickael-patrick.pdn",
+    "scans": [
+      { "label": "Copie Mickaël", "path": "scans/game3_mickael-patrick_mickael-copy.pdf" },
+      { "label": "Copie Patrick", "path": "scans/game3_mickael-patrick_patrick-copy.pdf" }
+    ]
+  }
+]

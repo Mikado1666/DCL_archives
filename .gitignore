@@ -1,0 +1,5 @@
+site.zip
+*.pdf
+*.PDF
+!scans/*.pdf
+!scans/*.PDF
